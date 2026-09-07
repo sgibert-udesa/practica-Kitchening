@@ -4,6 +4,9 @@
 
 body {
     background-image: url(../kitcheningResponsiveYForms_Base/img/bg-body.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav a {
@@ -27,65 +30,79 @@ ul {
 .navegador1 {
     margin: 20px;
 }
-
 .logo0 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
-
 .logo {
     margin: 30px;
+    border-radius: 180px;
 }
-
 .cajapadre {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-
+     justify-content: center;
+     align-items: center;
+    width: 1180px;
 }
-
 .cajas {
-    background-color: gray;
-    margin: 20px;
+    background-color: #444;
     height: 50px;
     width: 180px;
     color: white;
-    text-align: center;
-    align-self: center
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
 }
-
 header {
     margin: 30px;
 }
-
 .banner {
     margin: 20px;
     width: 1180px;
 }
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1180px;
+    margin: 0;
 
-.final {
-    margin: 20px;
-    height: 50px;
-    width: 180px;
-    color: white;
-    text-align: center;
-    align-self: center
 }
+
 
 article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 15px;
+    width: 350px;
+}
+
+.imagen {
     width: 380px;
 }
 
-section {
-    display: flex;
-     flex-direction: row ;
-    flex-wrap: wrap;
+.vermas {
+    background-color: #444;
+    color: white;
+    margin: 0;
 }
+
+.final {
+    margin: 10px;
+    color: white;
+}
+
+footer  {
+    background-color: rgb(200, 0, 0);
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor {width: 350px;}
