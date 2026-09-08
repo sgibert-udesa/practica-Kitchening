@@ -5,44 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <title>registro</title>
 </head>
 
 <body>
 
-
+ <header>
+        <nav>
+            <ul class="navegador">
+                <li class="navegador1"><a href="./login.html">Login</a></li>
+                <li class="navegador1"><a href="./registro.html">Register</a></li>
+            </ul>
+        </nav>
+        <div class="logo0"> <img src="./kitcheningResponsiveYForms_Base/img/logo.jpg" class="logo"></div>
+       <nav>
+         <ul class="cajapadre">
+            <li class="cajas"><a href="./index.html">HOME</a></li>
+            <li class="cajas">QUIENES</li>
+            <li class="cajas">SERVICIOS</li>
+            <li class="cajas">PORTFOLIO</li>
+            <li class="cajas">SUCURSALES</li>
+            <li class="cajas">CONTACTO</li>
+        </ul>
+       </nav>
+       
+    </header>
     <section class="contenedor">
-        <article>
-            <form action=""><label for="">NOMBRE<input type="text" required></label></form>
-        </article>
-        <article>
-            <form action=""><label for="">EMAIL<input type="email" required></label></form>
-        </article>
-        <article>
-            <form action=""><label for="">CONTRASEÑA<input type="password" required></label></form>
-        </article>
-        <article><label for="">PAIS DE NACIMIENTO<select id="">
+
+        <form action="">
+            <label for="">NOMBRE
+                <input type="text" required>
+            </label>
+            <label for="">EMAIL<input type="email" required></label>
+            <label for="">CONTRASEÑA<input type="password" required></label>
+            <label for="">PAIS DE NACIMIENTO
+                <select id="">
                     <option name="ARGENTINA" value="">ARGENTINA</option>
                     <option value="">CHILE</option>
                     <option value="">URUGUAY</option>
                     <option value="">BRASIL</option>
                     <option value="">PARAGUAY</option>
                 </select></label>
-        </article>
-        <article>
-            <label for=""><input type="radio" name="genero">FEMENINO</label>
-            <label for=""><input type="radio" name="genero">MASCULINO</label>
-            <label for=""><input type="radio" name="genero">OTRO</label>
-        </article>
-<article>
-    <label for="">HOBBIS<input type="checkbox">Jugar al fútbol ⚽</label>
-    <label for=""><input type="checkbox">Ir al gimnasio 🏋️</label>
-    <label for=""><input type="checkbox">Escuchar música 🎧</label>
-    <label for=""><input type="checkbox">Jugar videojuegos 🎮</label>
-    <label for=""><input type="checkbox">Mirar series o películas 🎬</label>
-
-
-</article>
+                
+                <label for=""><input type="radio" name="genero">FEMENINO</label>
+                <label for=""><input type="radio" name="genero">MASCULINO</label>
+                <label for=""><input type="radio" name="genero">OTRO</label>
+          
+                <label for="">HOBBIS<input type="checkbox">Jugar al fútbol ⚽</label>
+                <label for=""><input type="checkbox">Ir al gimnasio 🏋️</label>
+                <label for=""><input type="checkbox">Escuchar música 🎧</label>
+                <label for=""><input type="checkbox">Jugar videojuegos 🎮</label>
+                <label for=""><input type="checkbox">Mirar series o películas 🎬</label>
+     
+          <label for="">Contanos sobre vos <input type="text"></label>
+    </form>
 
     </section>
 
