@@ -151,4 +151,11 @@ footer {
 
 .contenedor {
     width: 350px;
+    background-color: gray;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
