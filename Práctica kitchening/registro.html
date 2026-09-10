@@ -33,32 +33,33 @@
     <section class="contenedor">
 
         <form action="">
-            <label for="">NOMBRE
-                <input type="text" required>
-            </label>
-            <label for="">EMAIL<input type="email" required></label>
-            <label for="">CONTRASEÑA<input type="password" required></label>
-            <label for="">PAIS DE NACIMIENTO
-                <select id="">
+            <h2>NOMBRE</h2>
+            <label for=""><input type="text" required minlength="4" placeholder="santiago gibert"> </label>
+            <h2>EMAIL</h2>
+            <label for=""><input type="email" required minlength="8" placeholder="ejemplo@gmail.com"></label>
+            <h2>CONTRASEÑA</h2>
+            <label for=""><input type="password" required minlength="6" ></label>
+            <h2>PAIS DE NACIMIENTO</h2>
+             <label for=""><select id="">
                     <option name="ARGENTINA" value="">ARGENTINA</option>
                     <option value="">CHILE</option>
                     <option value="">URUGUAY</option>
                     <option value="">BRASIL</option>
                     <option value="">PARAGUAY</option>
                 </select></label>
-                
+                <h2>genero</h2>
                 <label for=""><input type="radio" name="genero">FEMENINO</label>
                 <label for=""><input type="radio" name="genero">MASCULINO</label>
                 <label for=""><input type="radio" name="genero">OTRO</label>
-          
-                <label for="">HOBBIS<input type="checkbox">Jugar al fútbol ⚽</label>
+                 <h2>HOBBIS</h2>
+                <label for=""><input type="checkbox">Jugar al fútbol ⚽</label>
                 <label for=""><input type="checkbox">Ir al gimnasio 🏋️</label>
                 <label for=""><input type="checkbox">Escuchar música 🎧</label>
                 <label for=""><input type="checkbox">Jugar videojuegos 🎮</label>
                 <label for=""><input type="checkbox">Mirar series o películas 🎬</label>
                 <label for="">Contanos sobre vos <input type="text"></label>
                 <label for=""><input type="checkbox">acepto los terminos y condiciones</label>
-
+                 <label for=""><input type="submit"></label>
                 
     </form>
 
