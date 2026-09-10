@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1200px;
 
 }
 
@@ -170,157 +171,89 @@ form {
     margin: 20px;
 }
 
-@media (max-width: 768px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
+@media (max-width: 768px) 
+{body {
         width: 768px;
-        justify-content: center;
+        overflow:none ;
     }
-
-    section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    }
+    header{width: 768px;}
 
     .img-banner {
         width: 768px;
-        justify-content: center;        
-    }
-
-    footer {
-        display: flex;
-        flex-direction: column;
         width: 100%;
-        margin: 20vh;
-        width: 768px;
-        justify-content: center;
-        background-color: unset;
-        border-radius: 0;
     }
 
-    .final {
-        border-right: solid 0;
-        background-color: #444;
-        align-self: center;
-        align-items: center;
-        width: 100%;
-        margin: 0;
-        width: 768px;
-
-    article {
-            width: 768px;
-        }
+    .cajapadre { width: 768px;
     }
-
-    .final1 {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .cajapadre {
-        display: flex;
-        padding: 0;
-        flex-direction: column;
-
-    }
-
-    .cajas {
-        margin: 0;
-
-
-    }
-
-
-
+.cajas{
+    width: 120px;
+    padding: 20px;
 }
+    main {
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  footer{background-color: transparent;
+justify-self: center;}
+
+  .final1 {
+        background-color: #444;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 768px;
+        margin: 10px;
+        justify-self: center;
+        padding: 10px;
+    }
+    .final { border: none;
+        align-items: center;
+    }
+    .final ul { margin: 10px;}
+
+    }
 
 @media (max-width: 420px) {
-    section {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    }
-
     body {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 100%;
-        align-items: center;
-        align-self: center;
-        margin: 0;
-        padding: 0;
-        width: 100%;
         width: 420px;
         
-
-    }
-
-    .logo {
-        justify-content: center;
     }
 
     .img-banner {
-        height: 0;
-        width: 0;
-    }
-
-    footer {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 20vh;
-        justify-content: center;
-        background-color: unset;
-        border-radius: 0;
-    }
-
-    .final {
-        border-right: solid 0;
-        background-color: #444;
-        align-self: center;
-        align-items: center;
-        width: 100%;
-        margin: 0;
-    }
-
-    .final1 {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        flex-direction: column;
+        display: none;
     }
 
     .cajapadre {
-        display: block;
-        padding: 0;
-        height: 0;
-        width: 0;
-        background-color: none;
+        display: none;
     }
 
-    .cajas {
-        height: 0;
-        width: 0;
-        color: none;
-        background-color: none;
+    main {
+        width: 420px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 20px;
     }
-
-    .navegador a {
-        justify-content: space-around;
+    footer { 
+        width: 420px;
+         padding: 20px;
+        background-color: transparent  ;
+       
     }
-
-    .navegador {
-        justify-content: space-around;
+    .final1 {
+        background-color: #444;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+   
+        
+       
     }
+    .final { border: none;
+        align-items: center;
+    }
+    .navegador { justify-content:space-between ;}
 }
