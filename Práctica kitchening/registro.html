@@ -10,7 +10,7 @@
 
 <body>
 
- <header>
+    <header>
         <nav>
             <ul class="navegador">
                 <li class="navegador1"><a href="./login.html">Login</a></li>
@@ -18,52 +18,52 @@
             </ul>
         </nav>
         <div class="logo0"> <img src="./kitcheningResponsiveYForms_Base/img/logo.jpg" class="logo"></div>
-       <nav>
-         <ul class="cajapadre">
-            <li class="cajas"><a href="./index.html">HOME</a></li>
-            <li class="cajas">QUIENES</li>
-            <li class="cajas">SERVICIOS</li>
-            <li class="cajas">PORTFOLIO</li>
-            <li class="cajas">SUCURSALES</li>
-            <li class="cajas">CONTACTO</li>
-        </ul>
-       </nav>
-       
+        <nav>
+            <ul class="cajapadre">
+                <li class="cajas"><a href="./index.html">HOME</a></li>
+                <li class="cajas">QUIENES</li>
+                <li class="cajas">SERVICIOS</li>
+                <li class="cajas">PORTFOLIO</li>
+                <li class="cajas">SUCURSALES</li>
+                <li class="cajas">CONTACTO</li>
+            </ul>
+        </nav>
+
     </header>
-    <section class="contenedor">
-
-        <form action="">
-            <h2>NOMBRE</h2>
-            <label for=""><input type="text" required minlength="4" placeholder="santiago gibert"> </label>
-            <h2>EMAIL</h2>
-            <label for=""><input type="email" required minlength="8" placeholder="ejemplo@gmail.com"></label>
-            <h2>CONTRASEÑA</h2>
-            <label for=""><input type="password" required minlength="6" ></label>
-            <h2>PAIS DE NACIMIENTO</h2>
-             <label for=""><select id="">
-                    <option name="ARGENTINA" value="">ARGENTINA</option>
-                    <option value="">CHILE</option>
-                    <option value="">URUGUAY</option>
-                    <option value="">BRASIL</option>
-                    <option value="">PARAGUAY</option>
-                </select></label>
-                <h2>genero</h2>
-                <label for=""><input type="radio" name="genero">FEMENINO</label>
-                <label for=""><input type="radio" name="genero">MASCULINO</label>
-                <label for=""><input type="radio" name="genero">OTRO</label>
-                 <h2>HOBBIS</h2>
-                <label for=""><input type="checkbox">Jugar al fútbol ⚽</label>
-                <label for=""><input type="checkbox">Ir al gimnasio 🏋️</label>
-                <label for=""><input type="checkbox">Escuchar música 🎧</label>
-                <label for=""><input type="checkbox">Jugar videojuegos 🎮</label>
-                <label for=""><input type="checkbox">Mirar series o películas 🎬</label>
-                <label for="">Contanos sobre vos <input type="text"></label>
-                <label for=""><input type="checkbox">acepto los terminos y condiciones</label>
-                 <label for=""><input type="submit"></label>
+    <main>
+        <h1 class="registrate">REGISTRATE</h1>
+        <section class="contenedor">
+            <form action="">
+             
+                <label for=""><div class="escrito">NOMBRE</div><input type="text" required minlength="4" placeholder="Ingresa tu nombre" class="largo"> </label>
+                <label for=""><div class="escrito">EMAIL</div><input type="email" required minlength="8" placeholder="Ingresa tu email" class="largo"></label>
+                <label for=""><div class="escrito">CONTRASEÑA</div><input type="password" required minlength="6" placeholder="password" class="largo"></label>
+                <label for=""><div class="escrito negrita01" >Pais de nacimiento:</div></label>
+                    <select id="" class="selector corto">
+                        <option value="ARGENTINA">ARGENTINA</option>
+                        <option value="CHILE">CHILE</option>
+                        <option value="U">URUGUAY</option>
+                        <option value="B">BRASIL</option>
+                        <option value="P">PARAGUAY</option>
+                    </select>
                 
-    </form>
-
-    </section>
+                <label for="" ><div class="escrito negrita01" > Genero</div><input type="radio" name="genero" value="F">FEMENINO
+                  <input type="radio" name="genero" value="M">MASCULINO
+                  <input type="radio" name="genero" value="N">OTRO</label>
+               
+                <label for=""> <div class="escrito negrita01" >Hobbis</div><input type="checkbox" name="Hobbis"  value="futbol"> <span class="span_registro">fútbol</span>
+                <input type="checkbox" name="Hobbis"  value="G"> <span class="span.registro" >gimnasio</span>
+               <input type="checkbox" name="Hobbis"  value="Musica"> <span class="span.registro">música</span>
+               <input type="checkbox" name="Hobbis"  value="V"> <span class="span.registro">videojuegos</span>
+                <input type="checkbox" name="Hobbis"  value="P"> <span class="span.registro">películas</span></label>
+                
+                <label for=""><div class="escrito negrita01" >Dejanos tus comentarios</div><input type="text"></label>
+                <label for=""><input type="checkbox" class="terminos">acepto los terminos y condiciones</label>
+                <label for="" class="Registrate"><button type="submit" class="boton">Registrate</button><button class="boton"
+                        type="reset">Cancelar</button></label>
+            </form>
+        </section>
+    </main>
 
 
 
